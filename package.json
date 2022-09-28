@@ -1,0 +1,45 @@
+{
+  "name": "medicus_turkey",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Ertan Yakub",
+    "email": "yakubertan@gmail.com",
+    "url": "http://ertan.eu"
+  },
+  "engines": {
+    "node": ">=14.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@graphcms/rich-text-react-renderer": "^0.6.1",
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
+    "graphql": "^15.6.1",
+    "graphql-request": "^3.5.0",
+    "moment": "^2.29.1",
+    "next": "^12.1.6",
+    "next-sitemap": "^3.1.10",
+    "nextjs-google-analytics": "^2.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-multi-carousel": "^2.8.2",
+    "sass": "^1.42.1",
+    "usehooks-ts": "^2.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "postcss": "8.4.5",
+    "prettier": "2.6.2",
+    "tailwindcss": "^3.0.15"
+  }
+}
